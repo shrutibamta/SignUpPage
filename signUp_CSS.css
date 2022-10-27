@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(/pexels-adam-spinos-7293784.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    border: 2px solid rgba(0, 255, 255, 0);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 50%;
+    padding: 20px 10px;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.container h1{
+    font-size: 40px;
+    padding: 10px 5px;
+    color: aqua;
+    text-shadow: 1px 1px 4px aqua;
+    margin-bottom: 30px;
+    border-bottom: 2px solid aqua;
+    width: 82%;
+    font-family: serif;
+}
+
+.box{
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.box input{
+    background: none;
+    border: 2px solid black;
+    padding: 6px;
+    margin: 5px 0px;
+
+    border-bottom: 1px solid whitesmoke;
+    width: 55%;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.box input:hover{
+    transform: scale(1.1);
+}
+ 
+.box i{
+    width: 25px;
+    float: left;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: -30px;
+} 
+
+.btn{
+    margin: 40px 0px;
+    padding: 5px 2px;
+    width: 30%;
+    border-radius: 20px;
+    background: none;
+    background-color: blue;
+    box-shadow: 1px 1px 1px rgb(53, 53, 201);
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.btn:hover{
+    box-shadow: 1px 1px 4px whitesmoke;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 1px 1px 1px whitesmoke;
+    transform: scale(1.1);
+}
+
+.formerror{
+   margin: 5px 30px;
+   padding: 2px 7px;
+   color: darkgray;
+   font-family: monospace;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/607c2fae41.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./signUp_CSS.css">
+    <script src="./signUp_JS.js"></script>
+    <title>Sign Up Page</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="/myAction.php" name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="box" id="name">
+                <i class="fa fa-user"></i>
+                <input type="text" name="fname" placeholder="Username" required>
+                <div class="formerror"></div>
+            </div>
+            
+            <div class="box" id="email">
+                <i class="fa fa-envelope"></i>
+                <input type="text" name="femail" placeholder="Email Id" required>               
+                <div class="formerror"></div>
+            </div>
+            
+            <div class="box" id="pass">
+                <i class="fa fa-unlock"></i>
+                <input type="password" name="fpassword" placeholder="Password" required>  
+                <div class="formerror"></div>             
+            </div>
+
+            <div class="box" id="cpass">
+                <!-- <i class="fa fa-unlock-alt"></i> -->
+                <i class="fa fa-key"></i>
+                <input type="password" name="fcpassword" placeholder="Confirm Password" required>
+                <div class="formerror"></div>
+            </div>
+
+            <!-- <button type="button" class="btn">Sign Up</button> -->
+            <input type="submit" class="btn" value="Sign Up">
+        </form>
+    </div>
+
+
+</body>
+</html>
